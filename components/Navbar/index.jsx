@@ -15,7 +15,7 @@ const NavBar = (props) => {
         w="100px"
         color={["black", "black", "primary.500", "primary.500"]}
       />
-      <h1>hola</h1>
+      
       <MenuToggle toggle={toggle} isOpen={isOpen} />
       <MenuLinks isOpen={isOpen} />
     </NavBarContainer>
