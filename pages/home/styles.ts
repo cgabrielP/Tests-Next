@@ -4,14 +4,14 @@ import { Flex, Text } from "@chakra-ui/react";
 export const GreyBackground = styled(Flex)`
   background-color: #edf2f7;
   align-items: center;
-  justify-content: center;
   height: 80vh;
-  width: 90vw;
+  width: 100%;
   flex-direction: column;
 `;
 
 export const TitleContainer = styled(Flex)`
   flex-direction: column;
+  display:block
   width: 100%;
 `;
 
